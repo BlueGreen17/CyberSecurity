@@ -1,0 +1,33 @@
+For user privileges:
+1. -w  means write operation.
+2. -r means read operation.
+3. -x means execute operation.
+
+Chmod modes:
+To remove all permissions for group and world you would type chmod 700 [filename]. 
+To give the owner all permissions and world execute you would type chmod 701 [filename].
+To give the owner all permissions and world read and execute you would type chmod 705.
+
+rwx" stands for Read, Write, and Execute permissions.
+The first "rwx" represents permissions for the file owner.
+The "------" part represents that there are no permissions granted to the group and others.
+
+So, breaking it down:
+
+"rwx" for the owner means the owner has read, write, and execute permissions on the file.
+"------" for group and others means no permissions are granted to the group or any other users.
+
+By salting:
+We associate a random number with each user password.
+
+Operating system sets up passwords as cryptographic one way hashes in a password file or database.
+
+In Linux systems, encrypted passwords are typically stored in the location “/etc/shadow”
+In FreeBSD systems, encrypted passwords are typically stored in the location “/etc/master.passwd”
+
+Both heap and stack are essential to implement recursion
+In the structure of a typical memory layout of program, the stack segment grows towards the higher memory address
+The executable instructions of a program are usually stored in the data segment
+
+Fork System Calls creates child processes.
+
